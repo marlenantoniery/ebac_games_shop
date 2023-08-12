@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182C61;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Concert One', cursive;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.conteiner {
+    display: flex;
+}
+
+.image-conteiner {
+    flex: 1;
+}
+
+.image-conteiner img {
+    width: 100%; 
+    height: auto; 
+    padding: 20px 50px;
+    padding-right: 60px;
+    margin-left: 70px;
+    display: block;
+}
+
+.content-conteiner {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.GRID {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-conteiner h2, p{
+    margin-bottom: 10px;
+}
+
+.content-conteiner h2 {
+    font-family: 'Concert One', cursive;
+}
+
+.Form {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Concert One', cursive;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+    margin: 5px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #182C61;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+#contact .Form {
+    display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Form h2, h3, p {
+    margin-bottom: 8px;
+}
+
+button:hover {
+    background-color: #182C61;
+    cursor: pointer;
+    color: #ecf0f1;
+}
+
+textarea:focus {
+    outline-color: #182C61;
+}
